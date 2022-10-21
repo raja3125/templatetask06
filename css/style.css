@@ -24,19 +24,13 @@
     right: 0;
     z-index: 99;
     background-color: #fff;
+	 box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
 }
-.head h1{
-	padding:16px 0px;
-	font-size:30px;
-}
-.head-btn a{
-	display:block;
-	color:#fff;
-	background: #1977cc;
-    border-radius: 50px;
-	text-decoration: none;
-	padding: 11px 7px;
-	margin-top:10px;
+.head a{
+	font-weight:700;
+	font-family: "Poppins", sans-serif;
+    color: #2c4964;
+	font-size:25px;
 }
 /*-- banner section --*/
 .banner-section{
@@ -45,9 +39,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 }
-.banner-section .container{
-	
-}
+
 .heading h1{
 	padding:150px 0px 0px 0px;
 	font-size: 48px;
@@ -57,7 +49,6 @@
 	font-size: 24px;
 }
 /*--- banner-section end---*/
-
 .why-us-section .container{
     transform:translateY(-102px);
 }
@@ -126,7 +117,6 @@
     font-size: 14px;
 }
 /*-- count section--*/
-
 .count-section{
 	background: #f1f7fd;
     padding: 70px 0 60px;
@@ -154,7 +144,6 @@
     height: 48px;
 }
 /*--service section --*/
-
 .service-section{
     padding: 60px 0;
 }
@@ -188,7 +177,6 @@
     max-width: 100%;
     height: auto;
 }
- 
 /*--docter section --*/
 .member{
 	position: relative;
@@ -243,7 +231,6 @@
 }
 /*--testimonial section --*/
 .testimonial-01{
-	
     padding: 30px 50px 30px 60px;
     margin: 30px 15px;
     min-height: 200px;
@@ -300,8 +287,9 @@
 	font-size:14px;
 }
 .sec-info{
-	 box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2);
+	 box-shadow: 0 -2px 8px 0 rgba(0, 0, 0 0.2);
 }
 .footer-section{
+	
 	background-color: #f1f7fd;
 }
